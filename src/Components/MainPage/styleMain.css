@@ -252,3 +252,32 @@
     color: white;
 }
 
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: rgb(250, 255, 253);
+    border-bottom: 1px solid rgb(103, 100, 100);
+    position: sticky;
+    top: 0px;
+}
+
+nav h1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: brown;
+}
+nav>a{
+    padding-left: 5rem;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.active{
+    color: rgb(5, 5, 184);
+}
